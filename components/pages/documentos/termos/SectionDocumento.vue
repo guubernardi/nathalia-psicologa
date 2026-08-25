@@ -188,8 +188,6 @@ section.documento
   .cabecalho
     margin: 0 0 34px 0
 
-  .cabecalho h1
-    font-size: var(--f7)
 
   .conteudo h2
     margin: 36px 0 14px 0

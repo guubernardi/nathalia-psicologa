@@ -381,39 +381,71 @@ section.sobre
   .conteudo
     grid-template-columns: 1fr
     gap: 54px
-    padding: 60px 20px 50px 20px
+    padding: 60px 20px 24px 20px
 
   .foto
     max-width: 400px
     margin: 0 auto
 
+  // no mobile os dois de cima flanqueiam o topo e o terceiro fica embaixo.
+  // padding menor pra nao encostarem um no outro em tela estreita
+  .selo
+    gap: 8px
+    padding: 10px 14px
+
+  // precisa zerar top e left da regra base, senao o elemento estica entre os dois
   .selo.um
-    left: -10px
+    top: auto
+    right: -10px
+    bottom: 8%
+    left: auto
 
   .selo.dois
+    top: 6%
     right: -10px
 
   .selo.tres
+    bottom: 8%
     left: -10px
+
+// em tela bem estreita os dois de baixo nao cabem lado a lado
+@media screen and (max-width: 370px)
+  .selo.um
+    bottom: 26%
 
   .assinatura
     margin: 32px 0 0 0
 
-  .texto h2
-    font-size: var(--f7)
 
   .formacao
-    padding: 10px 20px 110px 20px
+    padding: 8px 20px 110px 20px
 
-    h3
-      font-size: var(--f6)
+    // o fio encolhe: em tela pequena ele sozinho abria 82px de vao
+    &::before
+      height: 28px
+      margin: 0 0 18px 0
 
+
+  // no mobile o texto quebra em duas linhas: pilula vira linha de lista,
+  // com raio menor, largura cheia e icone alinhado na primeira linha
   .credenciais
-    gap: 10px
+    flex-direction: column
+    align-items: stretch
+    gap: 8px
     margin: 26px 0 0 0
 
   .pilula
-    padding: 11px 18px
+    align-items: flex-start
+    padding: 14px 18px
+    border-radius: 16px
+    text-align: left
+
+    .edusites-icone
+      margin: 3px 0 0 0
+
+    p
+      font-size: var(--f2)
+      line-height: 1.45
 
   .botao
     justify-content: center

@@ -148,8 +148,6 @@ ul
     order: 2
     padding: 60px 20px 70px 20px
 
-  .texto h2
-    font-size: var(--f7)
 
   ul
     gap: 13px
@@ -158,14 +156,14 @@ ul
   .foto
     order: 1
     min-height: 420px
-    border-radius: 0 0 32px 32px
+    margin: 26px 20px 0 20px
+    border-radius: 32px
 
     &::after
-      top: 0
+      top: 14px
       right: 14px
       bottom: 14px
       left: 14px
-      border-top: 0
-      border-right: 1px solid rgba(255, 255, 255, 0.65)
-      border-radius: 0 0 22px 22px
+      border: 1px solid rgba(255, 255, 255, 0.65)
+      border-radius: 22px
 </style>

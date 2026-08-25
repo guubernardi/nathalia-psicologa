@@ -112,7 +112,7 @@ section.perguntas
   width: 100%
   padding: 120px 40px 190px 40px
   background-color: var(--cor-azul)
-  background-image: radial-gradient(58% 50% at 50% 0%, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 70%)
+  background-image: radial-gradient(46% 40% at 50% 62%, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0) 70%)
 
 .conteudo
   display: flex
@@ -267,8 +267,6 @@ section.perguntas
   section.perguntas
     padding: 70px 20px 110px 20px
 
-  .cabecalho h2
-    font-size: var(--f7)
 
   .lista
     gap: 10px
@@ -278,8 +276,6 @@ section.perguntas
     gap: 14px
     padding: 20px 20px
 
-    p
-      font-size: var(--f2)
 
   .resposta p
     padding: 0 20px 22px 20px

@@ -28,6 +28,22 @@ export default defineNuxtConfig({
       }
     }
   },
+  // @edusites/icons usa top-level await; o alvo padrao do Vite e es2020,
+  // onde TLA nao existe. es2022 e a versao que o especifica.
+  vite: {
+    build: {
+      target: 'es2022'
+    },
+    esbuild: {
+      target: 'es2022'
+    },
+    optimizeDeps: {
+      esbuildOptions: {
+        target: 'es2022'
+      }
+    }
+  },
+
   build: {
     optimization: {
       splitChunks: {

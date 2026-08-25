@@ -153,15 +153,10 @@ section.agendar
     padding: 40px 24px 38px 24px
     border-radius: 28px
 
-  .card h2
-    font-size: var(--f7)
 
   .botao
     justify-content: center
     width: 100%
     margin: 32px 0 0 0
     padding: 18px 24px
-
-    p
-      font-size: var(--f1)
 </style>

@@ -67,7 +67,7 @@ section.situacoes
   width: 100%
   padding: 30px 40px 180px 40px
   background-color: var(--cor-azul)
-  background-image: radial-gradient(60% 55% at 50% 0%, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0) 70%)
+  background-image: radial-gradient(46% 40% at 50% 62%, rgba(255, 255, 255, 0.07) 0%, rgba(255, 255, 255, 0) 70%)
 
 .bloco
   position: relative
@@ -211,7 +211,6 @@ section.situacoes
 
   .cabecalho h2
     margin: 20px 0 0 0
-    font-size: var(--f7)
 
   .cards
     gap: 16px
@@ -223,5 +222,4 @@ section.situacoes
 
   .fecho
     margin: 40px 0 0 0
-    font-size: var(--f2)
 </style>

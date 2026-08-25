@@ -249,8 +249,6 @@ section.como-funciona
   section.como-funciona
     padding: 70px 20px 110px 20px
 
-  .cabecalho h2
-    font-size: var(--f7)
 
   .etapas
     grid-template-columns: 1fr

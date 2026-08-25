@@ -268,8 +268,6 @@ ul
   .selo
     right: -10px
 
-  .texto h2
-    font-size: var(--f7)
 
   ul
     gap: 16px

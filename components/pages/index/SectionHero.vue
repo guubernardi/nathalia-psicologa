@@ -265,8 +265,6 @@ section.hero
     order: 2
     text-align: center
 
-    h1
-      font-size: var(--f8)
 
     h2
       margin: 20px 0 0 0

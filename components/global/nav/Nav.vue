@@ -6,7 +6,9 @@
       </NuxtLink>
 
       <div class="links" :class="{ abrir: menuAberto }">
-        <a v-for="link in links" :key="link.id" :href="'#' + link.id" @click="fecharMenu">{{ link.nome }}</a>
+        <div class="interno">
+          <a v-for="link in links" :key="link.id" :href="'#' + link.id" @click="fecharMenu">{{ link.nome }}</a>
+        </div>
       </div>
 
       <div class="acoes">
@@ -15,7 +17,7 @@
           <p>Agendar</p>
         </a>
 
-        <button class="menu" @click="alternarMenu" :aria-label="menuAberto ? 'Fechar menu' : 'Abrir menu'">
+        <button class="menu" :class="{ ativo: menuAberto }" @click="alternarMenu" :aria-label="menuAberto ? 'Fechar menu' : 'Abrir menu'">
           <SvgIcone :nome="menuAberto ? 'fechar' : 'menu'" :tamanho="16" />
         </button>
       </div>
@@ -108,6 +110,10 @@ nav.solido .conteudo
 .links
   display: flex
   align-items: center
+
+.interno
+  display: flex
+  align-items: center
   gap: 36px
 
   a
@@ -153,6 +159,12 @@ nav.solido .conteudo
   border-radius: 100px
   background-color: var(--cor-azul-claro)
   color: var(--cor-azul)
+  transition: transform 0.42s cubic-bezier(0.22, 1, 0.36, 1), background-color 0.3s, color 0.3s
+
+.menu.ativo
+  transform: rotate(90deg)
+  background-color: var(--cor-azul)
+  color: var(--cor-branco)
 
 @media screen and (max-width: 1000px)
   nav
@@ -166,26 +178,60 @@ nav.solido .conteudo
     max-width: 100%
     padding: 10px 14px
 
+  // logo e acoes dividem a primeira linha; o menu cai pra segunda.
+  // sem a ordem explicita o .links (width 100%) quebraria a linha antes das acoes
+  .logo
+    order: 1
+
+  .acoes
+    order: 2
+
+  // altura animada por max-height: display none nao transiciona.
+  // o teto e folgado de proposito, so precisa passar da altura real da lista
   .links
-    position: relative
-    display: none
+    order: 3
+    display: block
+    width: 100%
+    max-height: 0
+    overflow: hidden
+    transition: max-height 0.42s cubic-bezier(0.22, 1, 0.36, 1)
+
+  .links.abrir
+    max-height: 400px
+
+  .interno
     flex-direction: column
     align-items: flex-start
     gap: 0
     width: 100%
-    padding: 10px 0 4px 0
 
     a
       width: 100%
       padding: 14px 0
       font-size: var(--f3)
       border-bottom: 1px solid var(--cor-cinza-claro)
+      opacity: 0
+      transform: translateY(-10px)
+      transition: opacity 0.3s ease, transform 0.3s ease
 
       &:last-child
         border-bottom: 0
 
-  .links.abrir
-    display: flex
+  .links.abrir .interno a
+    opacity: 1
+    transform: translateY(0)
+
+  .links.abrir .interno a:nth-child(1)
+    transition-delay: 0.1s
+
+  .links.abrir .interno a:nth-child(2)
+    transition-delay: 0.16s
+
+  .links.abrir .interno a:nth-child(3)
+    transition-delay: 0.22s
+
+  .links.abrir .interno a:nth-child(4)
+    transition-delay: 0.28s
 
   .agendar
     padding: 12px 20px
