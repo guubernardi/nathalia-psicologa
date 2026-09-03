@@ -72,10 +72,6 @@ const perguntas = [
   {
     pergunta: 'Você atende crianças e adolescentes?',
     resposta: 'No momento o atendimento é voltado exclusivamente para adultos. Se a demanda for de alguém mais novo, posso indicar profissionais que trabalham com esse público.'
-  },
-  {
-    pergunta: 'Qual o valor da sessão?',
-    resposta: '[VALOR E FORMAS DE PAGAMENTO A PREENCHER]'
   }
 ]
 

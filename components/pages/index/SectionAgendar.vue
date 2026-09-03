@@ -14,7 +14,7 @@
         <p>Não precisa ter certeza de nada, nem saber explicar direito o que está sentindo. Basta querer começar a olhar para isso.</p>
         <p class="destaque">É só me mandar uma mensagem. A gente encontra o melhor horário e marca a primeira conversa.</p>
 
-        <a :href="linkAgendamento" class="botao">
+        <a :href="linkAgendamento" target="_blank" rel="noopener noreferrer" class="botao">
           <SvgIcone nome="agenda" :tamanho="16" />
           <p>Quero agendar minha consulta</p>
         </a>
@@ -24,8 +24,11 @@
 </template>
 
 <script setup>
-// TROCAR pelo destino real: link do WhatsApp, agenda online ou formulario
-const linkAgendamento = '#agendar'
+// numero provisorio: trocar pelo WhatsApp real da Nathalia
+const whatsapp = '551100000000'
+const mensagem = 'Olá, Nathalia! Gostaria de agendar uma primeira sessão.'
+
+const linkAgendamento = `https://wa.me/${whatsapp}?text=${encodeURIComponent(mensagem)}`
 </script>
 
 <style lang="sass" scoped>

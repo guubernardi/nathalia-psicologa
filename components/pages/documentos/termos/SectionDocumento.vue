@@ -13,7 +13,7 @@
       <p>Estes Termos de Uso regulam o acesso e a utilização deste site. Ao navegar por ele, você declara ter lido e concordado com as condições abaixo. Caso não concorde, pedimos que não utilize o site.</p>
 
       <h2>1. Sobre este site</h2>
-      <p>Este site é mantido por <b>[NOME COMPLETO]</b>, psicóloga inscrita no Conselho Regional de Psicologia sob o registro CRP 23/2742, e tem finalidade exclusivamente informativa. Ele apresenta a atuação profissional e serve como canal para solicitar o agendamento de sessões.</p>
+      <p>Este site é mantido por <b>Nathalia</b>, psicóloga inscrita no Conselho Regional de Psicologia sob o registro CRP 23/2742, e tem finalidade exclusivamente informativa. Ele apresenta a atuação profissional e serve como canal para solicitar o agendamento de sessões.</p>
 
       <h2>2. Este site não é atendimento psicológico</h2>
       <p>O conteúdo publicado aqui é informativo e <b>não constitui consulta, avaliação, diagnóstico ou tratamento psicológico</b>. A leitura deste site não estabelece relação profissional entre você e a psicóloga, que se inicia apenas com a primeira sessão efetivamente agendada e realizada.</p>
@@ -65,10 +65,10 @@
       <p>Estes Termos podem ser alterados a qualquer momento para refletir mudanças no serviço ou na legislação. A versão vigente é sempre a publicada nesta página, com a data da última atualização indicada no topo.</p>
 
       <h2>12. Legislação aplicável e foro</h2>
-      <p>Estes Termos são regidos pelas leis brasileiras. Fica eleito o foro da comarca de <b>[CIDADE/ESTADO]</b> para dirimir eventuais controvérsias, com renúncia a qualquer outro, por mais privilegiado que seja.</p>
+      <p>Estes Termos são regidos pelas leis brasileiras. Fica eleito o foro do domicílio do usuário para dirimir eventuais controvérsias.</p>
 
       <h2>13. Contato</h2>
-      <p>Dúvidas sobre estes Termos de Uso podem ser enviadas para <b>[E-MAIL DE CONTATO]</b>.</p>
+      <p>Dúvidas sobre estes Termos de Uso podem ser enviadas pelo canal de contato disponibilizado neste site para o agendamento de sessões.</p>
     </div>
   </section>
 </template>

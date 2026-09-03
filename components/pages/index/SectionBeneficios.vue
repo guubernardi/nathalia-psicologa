@@ -14,7 +14,7 @@
     </div>
 
     <div class="foto revela-dir" v-revelar="120">
-      <NuxtImg src="/imagens/nathalia-leveza.png" alt="Nathalia, psicóloga clínica, sentada em uma poltrona" width="1448" height="1086" sizes="100vw lg:50vw" format="webp" loading="lazy" />
+      <NuxtImg src="/imagens/nathalia-leveza.png" alt="Nathalia, psicóloga clínica, sentada em uma poltrona" width="1448" height="1086" sizes="100vw lg:50vw" format="webp" loading="lazy" draggable="false" />
     </div>
   </section>
 </template>

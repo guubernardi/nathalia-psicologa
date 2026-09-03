@@ -3,7 +3,7 @@
     <div class="conteudo">
       <div class="midia revela-esq" v-revelar>
         <div class="foto">
-          <NuxtImg src="/imagens/nathalia-cerebro.png" alt="Nathalia, psicóloga clínica, segurando um modelo anatômico de cérebro" width="921" height="1152" sizes="400px lg:560px" format="webp" loading="lazy" />
+          <NuxtImg src="/imagens/nathalia-cerebro.png" alt="Nathalia, psicóloga clínica, segurando um modelo anatômico de cérebro" width="921" height="1152" sizes="400px lg:560px" format="webp" loading="lazy" draggable="false" />
         </div>
 
         <div class="selo">

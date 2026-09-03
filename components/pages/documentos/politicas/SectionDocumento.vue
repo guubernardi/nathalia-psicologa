@@ -13,8 +13,8 @@
       <p>Esta Política de Privacidade explica como os dados pessoais de quem acessa este site são coletados, utilizados, armazenados e protegidos. O tratamento segue a Lei Geral de Proteção de Dados Pessoais (Lei nº 13.709/2018), o Marco Civil da Internet (Lei nº 12.965/2014) e o Código de Ética Profissional do Psicólogo.</p>
 
       <h2>1. Quem é responsável pelos seus dados</h2>
-      <p>A responsável pelo tratamento dos dados pessoais coletados neste site é <b>[NOME COMPLETO]</b>, psicóloga inscrita no Conselho Regional de Psicologia sob o registro CRP 23/2742, inscrita no CPF sob o nº <b>[CPF]</b>, com atendimento exclusivamente online.</p>
-      <p>Para qualquer assunto relacionado a esta política ou aos seus dados, o canal de contato é o e-mail <b>[E-MAIL DE CONTATO]</b>.</p>
+      <p>A responsável pelo tratamento dos dados pessoais coletados neste site é <b>Nathalia</b>, psicóloga inscrita no Conselho Regional de Psicologia sob o registro CRP 23/2742, com atendimento exclusivamente online.</p>
+      <p>Para qualquer assunto relacionado a esta política ou aos seus dados, o canal de contato é o mesmo canal de mensagens disponibilizado neste site para o agendamento de sessões.</p>
 
       <h2>2. Quais dados são coletados</h2>
       <p>Este site é institucional e não possui área de cadastro, login ou pagamento. Os dados tratados se limitam a:</p>
@@ -70,7 +70,7 @@
         <li>Revogar o consentimento e solicitar a eliminação dos dados tratados com essa base.</li>
         <li>Ser informado sobre com quem os seus dados foram compartilhados.</li>
       </ul>
-      <p>Para exercer qualquer um desses direitos, escreva para <b>[E-MAIL DE CONTATO]</b>. A resposta é enviada nos prazos previstos em lei, e pode ser necessária a confirmação da sua identidade antes do atendimento do pedido.</p>
+      <p>Para exercer qualquer um desses direitos, faça o pedido pelo canal de contato indicado no item 1. A resposta é enviada nos prazos previstos em lei, e pode ser necessária a confirmação da sua identidade antes do atendimento do pedido.</p>
 
       <h2>11. Menores de idade</h2>
       <p>O atendimento é voltado exclusivamente para pessoas maiores de 18 anos, e este site não se destina à coleta de dados de crianças e adolescentes.</p>
@@ -79,7 +79,7 @@
       <p>Esta política pode ser atualizada para refletir mudanças na atividade profissional ou na legislação. A data da última atualização está indicada no topo desta página, e recomenda-se a consulta periódica.</p>
 
       <h2>13. Contato</h2>
-      <p>Dúvidas sobre esta Política de Privacidade ou sobre o tratamento dos seus dados podem ser enviadas para <b>[E-MAIL DE CONTATO]</b>.</p>
+      <p>Dúvidas sobre esta Política de Privacidade ou sobre o tratamento dos seus dados podem ser enviadas pelo canal de contato indicado no item 1.</p>
     </div>
   </section>
 </template>

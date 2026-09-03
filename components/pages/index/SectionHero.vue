@@ -20,7 +20,7 @@
 
       <div class="foto">
         <div class="forma"></div>
-        <NuxtImg src="/imagens/nathalia.png" alt="Nathalia, psicóloga, sentada em uma poltrona" width="1400" height="1123" sizes="400px lg:620px" format="webp" preload />
+        <NuxtImg src="/imagens/nathalia.png" alt="Nathalia, psicóloga, sentada em uma poltrona" width="1400" height="1123" sizes="400px lg:620px" format="webp" preload draggable="false" />
       </div>
     </div>
 

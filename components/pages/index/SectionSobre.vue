@@ -15,7 +15,7 @@
       <div class="foto revela-esq" v-revelar>
         <div class="quadro">
           <Svgs nome="logo" />
-          <NuxtImg src="/imagens/nathalia-palestra.jpeg" alt="Nathalia, psicóloga clínica, falando para uma plateia" width="1268" height="832" sizes="420px lg:560px" format="webp" quality="90" loading="lazy" />
+          <NuxtImg src="/imagens/nathalia-palestra.jpeg" alt="Nathalia, psicóloga clínica, falando para uma plateia" width="1268" height="832" sizes="420px lg:560px" format="webp" quality="90" loading="lazy" draggable="false" />
         </div>
 
         <div class="selo um">
